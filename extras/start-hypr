@@ -16,10 +16,10 @@ export XDG_SESSION_DESKTOP=Hyprland
 # Uncomment for POSSIBLE nvidia support
 # See the wiki for more info as some work is required
 # https://wiki.hyprland.org/hyprland-wiki/pages/Nvidia/
-#env = LIBVA_DRIVER_NAME,nvidia
-#env = XDG_SESSION_TYPE,wayland
-#env = GBM_BACKEND,nvidia-drm
-#env = __GLX_VENDOR_LIBRARY_NAME,nvidia
-#env = WLR_NO_HARDWARE_CURSORS,1
+env = LIBVA_DRIVER_NAME,nvidia
+env = XDG_SESSION_TYPE,wayland
+env = GBM_BACKEND,nvidia-drm
+env = __GLX_VENDOR_LIBRARY_NAME,nvidia
+env = WLR_NO_HARDWARE_CURSORS,1
 
 exec Hyprland
